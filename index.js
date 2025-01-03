@@ -22,7 +22,7 @@ try {
     app.get('/', (req, res) => {
 
         res.send (`
-        Lean Systems<p>
+        Lean Systems PAAS<p>
         <a href="/sendtolog?message=hello">send a message to the log</a><p>
         hostname : ${hostname}<p>
         uptime : ${uptime}<p>
